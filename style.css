@@ -73,4 +73,54 @@ body {
 		opacity:1;
 	}
 
+#faq {
+    background-image: url('raw/inside1.jpg');
+    width: 100%;
+	height: 400px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	text-align: center;
+	color:white;
+}
+
+	#faq h2 {
+		font-size:50px;
+		font-weight:200;
+		margin:10px;
+	}
+
+	#faq h3 {
+		font-size:20px;
+		font-weight:200;
+		margin:10px;
+	}
+
+#fsection {
+    background-color:black;
+    width: 100%;
+    height: 1700px;
+    margin: 0 auto;
+}
+
+#question {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    color:white;
+}
+
+#question h1 {
+    font-size: 25px;
+    font-weight: 200;
+
+}
+
+#question p {
+    font-size: 14px;
+    font-weight: 200;
+
+}
+
 
