@@ -133,6 +133,11 @@ body {
     left: 95%;
 }
 
+#ria img {
+    width: 25px;
+    transition: width 5s;
+}
+
 #ria:hover {
     opacity:1;
 }
