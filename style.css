@@ -123,4 +123,18 @@ body {
 
 }
 
+#ria {
+    opacity:0;
+    transition: opacity 1s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+}
+
+#ria:hover {
+    opacity:1;
+}
+
 
