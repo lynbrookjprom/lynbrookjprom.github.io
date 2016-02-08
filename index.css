@@ -215,7 +215,7 @@
 /* Fourth Section */
 
 #bids {
-	height:100px;
+	height:150px;
 	width:100%;
 	background-color: #b5880f;
 	text-align:center;
@@ -234,10 +234,13 @@
 	#bids h3 {
 		color:white;
 		font-weight: 300;
-		margin:0;
-		padding-top:25px;
 		font-size:20px;
 	}
+
+#bids a {
+    text-decoration: none;
+    color: darkblue;
+}
 
 	#bids span {
 		color:darkblue;
