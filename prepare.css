@@ -41,6 +41,11 @@
         margin: 0 30px;
     }
 
+    #section a {
+        text-decoration: none;
+        color: #b5880f;
+    }
+
 @media all and (min-width: 27em) {
   #section li {
     width: 50%;
