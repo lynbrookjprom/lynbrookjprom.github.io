@@ -215,23 +215,32 @@
 /* Fourth Section */
 
 #bids {
-	height:80px;
+	height:100px;
 	width:100%;
-	background-color: white;
+	background-color: #b5880f;
 	text-align:center;
 	margin:0;
+    color:white;
 }
 
 	#bids h2 {
-		color:darkblue;
+		color:white;
 		font-weight: 300;
 		margin:0;
 		padding-top:25px;
 		font-size:28px;
 	}
 
+	#bids h3 {
+		color:white;
+		font-weight: 300;
+		margin:0;
+		padding-top:25px;
+		font-size:20px;
+	}
+
 	#bids span {
-		color:red;
+		color:darkblue;
 		margin:0;
 	}
 
