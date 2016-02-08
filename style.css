@@ -122,7 +122,7 @@ body {
     font-weight: 200;
 
 }
-
+/*
 #ria {
     opacity:0;
     transition: opacity 1s;
@@ -133,13 +133,9 @@ body {
     left: 95%;
 }
 
-#ria img {
-    width: 25px;
-    transition: width 5s;
-}
-
 #ria:hover {
     opacity:1;
 }
+*/
 
 
