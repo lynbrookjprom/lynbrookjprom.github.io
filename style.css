@@ -122,6 +122,15 @@ body {
     font-weight: 200;
 
 }
+
+#question a {
+    color: #b5880f;  
+}
+
+#text-background a {
+    color: #b5880f; 
+}
+
 /*
 #ria {
     opacity:0;
