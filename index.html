@@ -95,13 +95,15 @@
 
         // * COUNTDOWN TIMER START * //
             // set the date we're counting down to
-            var target_date = new Date("Feb 21, 2016").getTime();
+            var target_date = new Date("Feb 22, 2016").getTime();
 
             // variables for time units
             var days, hours, minutes, seconds;
 
             // get tag element
             var countdown = document.getElementById("countdown");
+            
+            var buffer = 4;
 
             // update the tag with id "countdown" every 1 second
             setInterval(function () {
@@ -121,10 +123,12 @@
                 seconds = parseInt(seconds_left % 60);
 
                 // format countdown string + set tag value
-                countdown.innerHTML = days + "d " + hours + "h "
+                countdown.innerHTML = days + "d " + (hours - buffer) + "h "
                 + minutes + "m " + seconds + "s ";
 
             }, 1000);
+            
+            
 
         // * COUNTDOWN TIMER END * //
 
