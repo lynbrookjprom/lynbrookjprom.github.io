@@ -52,11 +52,17 @@
 		color:#555;
 	}
 
-	#countdown {
-		font-size:50px;
+
+	#countdownf {
+		font-size:35px;
 		font-weight:300;
 		color:white;
 	}
+
+    #countdownf a {
+        color: #b5880f;
+        text-decoration: none;
+    }
 
 #description {
 	text-align:right;
