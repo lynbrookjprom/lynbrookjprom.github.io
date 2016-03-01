@@ -9,6 +9,16 @@
     display:block;  
     margin:0;
 }
+
+#nav {
+    background-color:rgba(0,0,0,0.3) !important; 
+    transition: background-color 1s;
+}
+
+#nav:hover {
+    background-color:rgba(0,0,0,0.8) !important;
+}
+    
 #gold {
     color: #b5880f;
 }
