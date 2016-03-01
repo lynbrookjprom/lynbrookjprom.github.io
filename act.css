@@ -5,9 +5,9 @@
 
 #activities {
     background-color: black;   
-    height: 400px;
-    display:block;
-    
+    height: 1800px;
+    display:block;  
+    margin:0;
 }
 #gold {
     color: #b5880f;
